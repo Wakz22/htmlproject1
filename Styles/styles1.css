@@ -1,0 +1,120 @@
+h4{
+    color: aqua;
+    border: 4x dashed orange;
+}
+
+h5{
+    text-align: right;
+    text-decoration: line-through;
+}
+
+.work1{background-color: black;
+text-transform: uppercase;}
+
+.title{
+    background-color: blueviolet;
+text-transform: uppercase;
+}
+
+.border{border: 3px ridgeg gold;}
+
+#Nad{
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    background-color: black;
+}
+
+.box .para{
+    font-size: 60px;
+    color: chartreuse;
+    text-align: center;
+}
+
+article > p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+h1 + p {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: .5em;
+}
+
+h1 ~ p {
+    font-weight: bold;
+    border: 3px solid red;
+    border-radius: 5px;
+    color: #fff;
+    padding: .5em;
+}
+
+/* unvisited link */
+a:link {
+    color: tomato;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+    text-decoration: line-through;
+}
+
+/* mouse over element */
+a:hover {
+    color: green;
+    text-decoration: overline;
+} 
+
+/* selected link */
+a:active{
+    color: yellow;
+}
+            
+.box {
+    border: 2px solid green;
+    /* padding: 100px; 
+        padding-top: 5px;*/
+        padding: 10px 5px 20px 5px;
+}
+.inner-box{
+    /* width: 1000%; or 50% */
+    border: 500px solid #f00;
+    padding: 6px;
+    border-radius: 50px;
+    visibility: hidden;
+    /* display: none; */
+    /* margin: 100px; */
+}
+
+.text-1 {
+    background-color: aqua;
+    font-size: 20px;
+    line-height: 50px;
+    letter-spacing: 4px;
+  word-spacing: 4px;
+}
+
+.my-box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#box-1 {
+    /* display: none; */
+    background: blue;
+}
+#box-2 {
+    /* display: none; */
+    /* visibility:hidden; */
+    background: red;
+}
+#box-3 {
+    /* display: none; */
+    background: green;
+}
